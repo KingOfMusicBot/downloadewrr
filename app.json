@@ -1,0 +1,55 @@
+{
+  "name": "Prime M3U8 Downloader",
+  "description": "Download M3U8 video streams and convert them to MP4 using Node, BullMQ, Redis, and FFmpeg.",
+  "keywords": [
+    "m3u8",
+    "downloader",
+    "ffmpeg",
+    "bullmq",
+    "redis",
+    "node"
+  ],
+  "env": {
+    "MONGODB_URI": {
+      "description": "Your MongoDB Atlas connection URI (e.g. mongodb+srv://username:password@cluster.mongodb.net/dbname)",
+      "required": true
+    },
+    "JWT_SECRET": {
+      "description": "Secret key for signing JWT tokens",
+      "generator": "secret"
+    },
+    "RATE_LIMIT_MAX_API": {
+      "description": "Maximum API requests per 15 minutes (default 5000)",
+      "value": "5000",
+      "required": false
+    },
+    "REDIS_URL": {
+      "description": "Your Redis connection URL (e.g. redis://username:password@host:port)",
+      "required": false
+    },
+    "FRONTEND_URL": {
+      "description": "Public URL of the Downloader application (e.g. https://your-downloader-app.herokuapp.com). Used for CORS.",
+      "required": true
+    },
+    "NEXT_PUBLIC_API_URL": {
+      "description": "Public API URL of the Downloader application (same as FRONTEND_URL). Make sure it starts with https://.",
+      "required": true
+    },
+    "TELEGRAM_BOT_TOKEN": {
+      "description": "Telegram Bot Token for logging notifications. Leave empty to disable.",
+      "required": false
+    },
+    "TELEGRAM_CHAT_ID": {
+      "description": "Telegram Chat/Logger Group ID. Leave empty to disable.",
+      "required": false
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-apt"
+    },
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}

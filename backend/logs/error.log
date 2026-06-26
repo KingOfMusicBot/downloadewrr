@@ -1,0 +1,128 @@
+[2026-06-18 09:17:59:1759] [[31merror[39m]: [31mWorker MongoDB connection error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017[39m
+[2026-06-18 09:20:53:2053] [[31merror[39m]: [31mWorker MongoDB connection error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017[39m
+[2026-06-18 09:22:13:2213] [[31merror[39m]: [31mWorker MongoDB connection error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017[39m
+[2026-06-18 09:23:19:2319] [[31merror[39m]: [31mWorker MongoDB connection error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017[39m
+[2026-06-18 09:23:38:2338] [[31merror[39m]: [31mWorker MongoDB connection error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017[39m
+[2026-06-18 09:24:34:2434] [[31merror[39m]: [31mWorker MongoDB connection error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017[39m
+[2026-06-18 09:26:01:261] [[31merror[39m]: [31mWorker MongoDB connection error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017[39m
+[2026-06-18 09:32:45:3245] [[31merror[39m]: [31mWorker MongoDB connection error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017[39m
+[2026-06-18 09:32:48:3248] [[31merror[39m]: [31mRegistration error: Operation `users.findOne()` buffering timed out after 10000ms[39m
+[2026-06-18 09:32:54:3254] [[31merror[39m]: [31mMongoDB connection error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017[39m
+[2026-06-18 09:35:26:3526] [[31merror[39m]: [31mRegistration error: E11000 duplicate key error collection: test.users index: phoneNumber_1 dup key: { phoneNumber: null }[39m
+[2026-06-18 09:40:49:4049] [[31merror[39m]: [31mffmpeg process execution error: spawn ffmpeg ENOENT[39m
+[2026-06-18 09:40:49:4049] [[31merror[39m]: [31mJob 1 failed: Failed to execute FFmpeg: spawn ffmpeg ENOENT[39m
+[2026-06-18 09:40:49:4049] [[31merror[39m]: [31mffmpeg process exited with code -4058[39m
+[2026-06-18 09:40:49:4049] [[31merror[39m]: [31mJob 1 failed with error: Failed to execute FFmpeg: spawn ffmpeg ENOENT[39m
+[2026-06-18 09:40:55:4055] [[31merror[39m]: [31mffmpeg process execution error: spawn ffmpeg ENOENT[39m
+[2026-06-18 09:40:55:4055] [[31merror[39m]: [31mJob 1 failed: Failed to execute FFmpeg: spawn ffmpeg ENOENT[39m
+[2026-06-18 09:40:55:4055] [[31merror[39m]: [31mffmpeg process exited with code -4058[39m
+[2026-06-18 09:40:55:4055] [[31merror[39m]: [31mJob 1 failed with error: Failed to execute FFmpeg: spawn ffmpeg ENOENT[39m
+[2026-06-18 09:41:05:415] [[31merror[39m]: [31mJob 1 failed with error: Download record not found for ID: 6a336f3fab94ff8841cfdc3d[39m
+[2026-06-18 09:42:47:4247] [[31merror[39m]: [31mffmpeg process execution error: spawn ffmpeg ENOENT[39m
+[2026-06-18 09:42:47:4247] [[31merror[39m]: [31mJob 2 failed: Failed to execute FFmpeg: spawn ffmpeg ENOENT[39m
+[2026-06-18 09:42:47:4247] [[31merror[39m]: [31mffmpeg process exited with code -4058[39m
+[2026-06-18 09:42:47:4247] [[31merror[39m]: [31mJob 2 failed with error: Failed to execute FFmpeg: spawn ffmpeg ENOENT[39m
+[2026-06-18 09:42:53:4253] [[31merror[39m]: [31mffmpeg process execution error: spawn ffmpeg ENOENT[39m
+[2026-06-18 09:42:53:4253] [[31merror[39m]: [31mJob 2 failed: Failed to execute FFmpeg: spawn ffmpeg ENOENT[39m
+[2026-06-18 09:42:53:4253] [[31merror[39m]: [31mffmpeg process exited with code -4058[39m
+[2026-06-18 09:42:53:4253] [[31merror[39m]: [31mJob 2 failed with error: Failed to execute FFmpeg: spawn ffmpeg ENOENT[39m
+[2026-06-18 09:43:03:433] [[31merror[39m]: [31mffmpeg process execution error: spawn ffmpeg ENOENT[39m
+[2026-06-18 09:43:03:433] [[31merror[39m]: [31mJob 2 failed: Failed to execute FFmpeg: spawn ffmpeg ENOENT[39m
+[2026-06-18 09:43:03:433] [[31merror[39m]: [31mffmpeg process exited with code -4058[39m
+[2026-06-18 09:43:03:433] [[31merror[39m]: [31mJob 2 failed with error: Failed to execute FFmpeg: spawn ffmpeg ENOENT[39m
+[2026-06-18 09:47:10:4710] [[31merror[39m]: [31mffmpeg process execution error: spawn ffmpeg ENOENT[39m
+[2026-06-18 09:47:10:4710] [[31merror[39m]: [31mJob 3 failed: Failed to execute FFmpeg: spawn ffmpeg ENOENT[39m
+[2026-06-18 09:47:10:4710] [[31merror[39m]: [31mffmpeg process exited with code -4058[39m
+[2026-06-18 09:47:10:4710] [[31merror[39m]: [31mJob 3 failed with error: Failed to execute FFmpeg: spawn ffmpeg ENOENT[39m
+[2026-06-18 09:47:16:4716] [[31merror[39m]: [31mffmpeg process execution error: spawn ffmpeg ENOENT[39m
+[2026-06-18 09:47:16:4716] [[31merror[39m]: [31mJob 3 failed: Failed to execute FFmpeg: spawn ffmpeg ENOENT[39m
+[2026-06-18 09:47:16:4716] [[31merror[39m]: [31mffmpeg process exited with code -4058[39m
+[2026-06-18 09:47:16:4716] [[31merror[39m]: [31mJob 3 failed with error: Failed to execute FFmpeg: spawn ffmpeg ENOENT[39m
+[2026-06-18 09:47:26:4726] [[31merror[39m]: [31mffmpeg process execution error: spawn ffmpeg ENOENT[39m
+[2026-06-18 09:47:26:4726] [[31merror[39m]: [31mJob 3 failed: Failed to execute FFmpeg: spawn ffmpeg ENOENT[39m
+[2026-06-18 09:47:26:4726] [[31merror[39m]: [31mffmpeg process exited with code -4058[39m
+[2026-06-18 09:47:26:4726] [[31merror[39m]: [31mJob 3 failed with error: Failed to execute FFmpeg: spawn ffmpeg ENOENT[39m
+[2026-06-18 09:48:29:4829] [[31merror[39m]: [31mffmpeg process execution error: spawn ffmpeg ENOENT[39m
+[2026-06-18 09:48:29:4829] [[31merror[39m]: [31mJob 4 failed: Failed to execute FFmpeg: spawn ffmpeg ENOENT[39m
+[2026-06-18 09:48:29:4829] [[31merror[39m]: [31mffmpeg process exited with code -4058[39m
+[2026-06-18 09:48:29:4829] [[31merror[39m]: [31mJob 4 failed with error: Failed to execute FFmpeg: spawn ffmpeg ENOENT[39m
+[2026-06-18 09:48:35:4835] [[31merror[39m]: [31mffmpeg process execution error: spawn ffmpeg ENOENT[39m
+[2026-06-18 09:48:35:4835] [[31merror[39m]: [31mJob 4 failed: Failed to execute FFmpeg: spawn ffmpeg ENOENT[39m
+[2026-06-18 09:48:35:4835] [[31merror[39m]: [31mffmpeg process exited with code -4058[39m
+[2026-06-18 09:48:35:4835] [[31merror[39m]: [31mJob 4 failed with error: Failed to execute FFmpeg: spawn ffmpeg ENOENT[39m
+[2026-06-18 09:54:45:5445] [[31merror[39m]: [31mJob 5 failed with error: Download record not found for ID: 6a3371d02b3a147b0df3a1e9[39m
+[2026-06-18 09:54:45:5445] [[31merror[39m]: [31mJob 4 failed with error: Download record not found for ID: 6a3371942f735d8cbd90eb8c[39m
+[2026-06-18 09:54:50:5450] [[31merror[39m]: [31mJob 5 failed with error: Download record not found for ID: 6a3371d02b3a147b0df3a1e9[39m
+[2026-06-18 09:55:00:550] [[31merror[39m]: [31mJob 5 failed with error: Download record not found for ID: 6a3371d02b3a147b0df3a1e9[39m
+[2026-06-18 10:06:11:611] [[31merror[39m]: [31mJob 6 failed with error: job stalled more than allowable limit[39m
+[2026-06-18 10:19:55:1955] [[31merror[39m]: [31mJob 7 failed with error: Download record not found for ID: 6a3375aa4ea2a2fbf8ca0650[39m
+[2026-06-18 10:20:00:200] [[31merror[39m]: [31mJob 7 failed with error: Download record not found for ID: 6a3375aa4ea2a2fbf8ca0650[39m
+[2026-06-18 10:20:10:2010] [[31merror[39m]: [31mJob 7 failed with error: Download record not found for ID: 6a3375aa4ea2a2fbf8ca0650[39m
+[2026-06-18 10:29:07:297] [[31merror[39m]: [31mAuthentication error: Operation `users.findOne()` buffering timed out after 10000ms[39m
+[2026-06-18 10:31:15:3115] [[31merror[39m]: [31mJob 8 failed with error: job stalled more than allowable limit[39m
+[2026-06-18 10:50:50:5050] [[31merror[39m]: [31mJob 9 failed with error: Download record not found for ID: 6a337baebdee804dabb30665[39m
+[2026-06-18 10:50:55:5055] [[31merror[39m]: [31mJob 9 failed with error: Download record not found for ID: 6a337baebdee804dabb30665[39m
+[2026-06-18 10:51:05:515] [[31merror[39m]: [31mJob 9 failed with error: Download record not found for ID: 6a337baebdee804dabb30665[39m
+[2026-06-18 11:09:41:941] [[31merror[39m]: [31mffmpeg process exited with code 255[39m
+[2026-06-18 11:10:01:101] [[31merror[39m]: [31mAuthentication error: Operation `users.findOne()` buffering timed out after 10000ms[39m
+[2026-06-18 11:10:01:101] [[31merror[39m]: [31mAuthentication error: Operation `users.findOne()` buffering timed out after 10000ms[39m
+[2026-06-18 11:10:38:1038] [[31merror[39m]: [31mJob 10 failed with error: job stalled more than allowable limit[39m
+[2026-06-18 11:13:07:137] [[31merror[39m]: [31mError fetching downloads: Connection pool for ac-3smyfw2-shard-00-02.t7j4phv.mongodb.net:27017 was cleared because another operation failed with: "Client network socket disconnected before secure TLS connection was established"[39m
+[2026-06-18 11:13:07:137] [[31merror[39m]: [31mAuthentication error: Connection pool for ac-3smyfw2-shard-00-02.t7j4phv.mongodb.net:27017 was cleared because another operation failed with: "Client network socket disconnected before secure TLS connection was established"[39m
+[2026-06-18 11:40:49:4049] [[31merror[39m]: [31mffmpeg process exited with code 4294957242[39m
+[2026-06-18 11:40:49:4049] [[31merror[39m]: [31mJob 11 failed: ffmpeg failed. Code: 4294957242. Output: .101 / 62.  3.101[39m
+[31m  libavfilter    11. 14.101 / 11. 14.101[39m
+[31m  libswscale      9.  5.101 /  9.  5.101[39m
+[31m  libswresample   6.  3.101 /  6.  3.101[39m
+[31m[tls @ 000001929b643580] Error in the pull function.[39m
+[31m[tls @ 000001929b643580] IO error: Error number -10054 occurred[39m
+[31m[in#0 @ 000001929b6c2700] Error opening input: Error number -10054 occurred[39m
+[31mError opening input file https://stream.pimaxer.in/a35629ba-3a1b-4ed0-9ffc-fe3b2941b183/master.m3u8.[39m
+[31mError opening input files: Error number -10054 occurred[39m
+[31m[39m
+[2026-06-18 11:40:49:4049] [[31merror[39m]: [31mJob 11 failed with error: ffmpeg failed. Code: 4294957242. Output: .101 / 62.  3.101[39m
+[31m  libavfilter    11. 14.101 / 11. 14.101[39m
+[31m  libswscale      9.  5.101 /  9.  5.101[39m
+[31m  libswresample   6.  3.101 /  6.  3.101[39m
+[31m[tls @ 000001929b643580] Error in the pull function.[39m
+[31m[tls @ 000001929b643580] IO error: Error number -10054 occurred[39m
+[31m[in#0 @ 000001929b6c2700] Error opening input: Error number -10054 occurred[39m
+[31mError opening input file https://stream.pimaxer.in/a35629ba-3a1b-4ed0-9ffc-fe3b2941b183/master.m3u8.[39m
+[31mError opening input files: Error number -10054 occurred[39m
+[31m[39m
+[2026-06-18 11:48:33:4833] [[31merror[39m]: [31mJob 11 failed with error: job stalled more than allowable limit[39m
+[2026-06-18 16:03:44:344] [[31merror[39m]: [31mError parsing M3U8 playlist: Invalid M3U8 file format: missing EXTM3U header[39m
+[2026-06-18 16:03:44:344] [[31merror[39m]: [31mError analyzing download URL: M3U8 analysis failed: Invalid M3U8 file format: missing EXTM3U header[39m
+[2026-06-26 11:49:14:4914] [[31merror[39m]: [31mWorker MongoDB connection error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017[39m
+[2026-06-26 11:49:14:4914] [[31merror[39m]: [31mMongoDB connection error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017[39m
+[2026-06-26 13:03:50:350] [[31merror[39m]: [31mffmpeg process exited with code 255[39m
+[2026-06-26 13:03:50:350] [[31merror[39m]: [31mJob 3 failed: ffmpeg failed. Code: 255. Output: q=-1.0 size=   80384KiB time=00:27:18.52 bitrate= 401.9kbits/s speed=1.07x elapsed=0:25:27.85    [39m[31m[vist#0:0/h264 @ 000001bc1b0ae600] timestamp discontinuity (stream id=0): -30016022, new offset= -61[39m
+[31m[out#0/mp4 @ 000001bc1caa2e80] video:54980KiB audio:25713KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 1.390193%[39m
+[31mframe=40713 fps= 27 q=-1.0 Lsize=   81815KiB time=00:27:18.52 bitrate= 409.0kbits/s speed=1.07x elapsed=0:25:28.75    [39m
+[31mExiting normally, received signal 2.[39m
+[31m[39m
+[2026-06-26 13:04:39:439] [[31merror[39m]: [31mJob 3 failed with error: Download record not found for ID: 6a3e2557e41ec4d082ca9eb3[39m
+[2026-06-26 13:04:39:439] [[31merror[39m]: [31mJob 1 failed with error: Download record not found for ID: 6a3e1efee41ec4d082ca9aa7[39m
+[2026-06-26 13:06:42:642] [[31merror[39m]: [31mffmpeg process exited with code 255[39m
+[2026-06-26 13:06:42:642] [[31merror[39m]: [31mJob 5 failed: ffmpeg failed. Code: 255. Output: :0/h264 @ 0000021d493d5bc0] timestamp discontinuity (stream id=0): -10005322, new offset= -61[39m
+[31m[aist#0:1/aac @ 0000021d493d6e40] timestamp discontinuity (stream id=0): 10005322, new offset= -10005383[39m
+[31m[out#0/mp4 @ 0000021d49489c40] video:5136KiB audio:10084KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 3.936106%[39m
+[31mframe=16376 fps=143 q=-1.0 Lsize=   15819KiB time=00:10:54.89 bitrate= 197.9kbits/s speed=5.73x elapsed=0:01:54.22    [39m
+[31mExiting normally, received signal 2.[39m
+[31m[39m
+[2026-06-26 13:06:42:642] [[31merror[39m]: [31mJob 5 failed with error: No document found for query "{ _id: new ObjectId('6a3e2b8f0be577ff25e0de84') }" on model "Download"[39m
+[2026-06-26 13:06:42:642] [[31merror[39m]: [31mffmpeg process exited with code 255[39m
+[2026-06-26 13:06:42:642] [[31merror[39m]: [31mJob 4 failed: ffmpeg failed. Code: 255. Output: 15360KiB time=00:11:10.06 bitrate= 187.8kbits/s speed=4.65x elapsed=0:02:24.08    [39m[31mframe=16617 fps=115 q=-1.0 size=   15360KiB time=00:11:10.06 bitrate= 187.8kbits/s speed=4.63x elapsed=0:02:24.60    [39m[31m[out#0/mp4 @ 000002864dd68640] video:5304KiB audio:10253KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 3.096690%[39m
+[31mframe=16617 fps=114 q=-1.0 Lsize=   16038KiB time=00:11:10.06 bitrate= 196.1kbits/s speed=4.61x elapsed=0:02:25.30    [39m
+[31mExiting normally, received signal 2.[39m
+[31m[39m
+[2026-06-26 13:06:42:642] [[31merror[39m]: [31mJob 4 failed with error: No document found for query "{ _id: new ObjectId('6a3e2ae4e41ec4d082ca9fb2') }" on model "Download"[39m
+[2026-06-26 13:06:56:656] [[31merror[39m]: [31mJob 3 failed with error: Download record not found for ID: 6a3e2557e41ec4d082ca9eb3[39m
+[2026-06-26 13:06:56:656] [[31merror[39m]: [31mJob 1 failed with error: Download record not found for ID: 6a3e1efee41ec4d082ca9aa7[39m
+[2026-06-26 13:06:56:656] [[31merror[39m]: [31mJob 5 failed with error: Download record not found for ID: 6a3e2b8f0be577ff25e0de84[39m
+[2026-06-26 13:06:56:656] [[31merror[39m]: [31mJob 4 failed with error: Download record not found for ID: 6a3e2ae4e41ec4d082ca9fb2[39m
+[2026-06-26 13:07:06:76] [[31merror[39m]: [31mJob 3 failed with error: Download record not found for ID: 6a3e2557e41ec4d082ca9eb3[39m
+[2026-06-26 13:07:06:76] [[31merror[39m]: [31mJob 1 failed with error: Download record not found for ID: 6a3e1efee41ec4d082ca9aa7[39m
+[2026-06-26 13:07:06:76] [[31merror[39m]: [31mJob 5 failed with error: Download record not found for ID: 6a3e2b8f0be577ff25e0de84[39m
+[2026-06-26 13:07:06:76] [[31merror[39m]: [31mJob 4 failed with error: Download record not found for ID: 6a3e2ae4e41ec4d082ca9fb2[39m
+[2026-06-26 13:24:48:2448] [[31merror[39m]: [31mError fetching downloads: Client network socket disconnected before secure TLS connection was established[39m

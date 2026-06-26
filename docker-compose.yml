@@ -1,0 +1,89 @@
+version: '3.8'
+
+services:
+  mongodb:
+    image: mongo:6.0
+    container_name: m3u8-mongodb
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo-data:/data/db
+    networks:
+      - m3u8-network
+    restart: always
+
+  redis:
+    image: redis:7.0-alpine
+    container_name: m3u8-redis
+    ports:
+      - "6379:6379"
+    networks:
+      - m3u8-network
+    restart: always
+
+  backend-api:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: m3u8-backend-api
+    ports:
+      - "5000:5000"
+    environment:
+      - PORT=5000
+      - NODE_ENV=development
+      - MONGODB_URI=mongodb://mongodb:27017/m3u8-downloader
+      - REDIS_URL=redis://redis:6379
+      - JWT_SECRET=super_secret_jwt_key_12345
+      - UPLOAD_DIR=/app/uploads
+      - FRONTEND_URL=http://localhost:3000
+    volumes:
+      - shared-downloads:/app/uploads
+    depends_on:
+      - mongodb
+      - redis
+    networks:
+      - m3u8-network
+    restart: always
+
+  backend-worker:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: m3u8-backend-worker
+    command: npm run start:worker
+    environment:
+      - NODE_ENV=development
+      - MONGODB_URI=mongodb://mongodb:27017/m3u8-downloader
+      - REDIS_URL=redis://redis:6379
+      - UPLOAD_DIR=/app/uploads
+    volumes:
+      - shared-downloads:/app/uploads
+    depends_on:
+      - mongodb
+      - redis
+    networks:
+      - m3u8-network
+    restart: always
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: m3u8-frontend
+    ports:
+      - "3000:3000"
+    environment:
+      - NEXT_PUBLIC_API_URL=http://localhost:5000
+    depends_on:
+      - backend-api
+    networks:
+      - m3u8-network
+    restart: always
+
+volumes:
+  mongo-data:
+  shared-downloads:
+
+networks:
+  m3u8-network:
+    driver: bridge

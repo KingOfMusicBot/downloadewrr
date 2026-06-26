@@ -1,0 +1,14 @@
+{
+  "name": "prime-m3u8-downloader-root",
+  "version": "1.0.0",
+  "description": "Root orchestrator for Prime M3U8 Downloader",
+  "scripts": {
+    "dev": "node run.js",
+    "build": "npm run build --prefix backend && npm run build --prefix frontend",
+    "install:all": "npm install && npm install --prefix backend && npm install --prefix frontend",
+    "heroku-postbuild": "npm install --production=false --prefix backend && npm run build --prefix backend && npm install --production=false --prefix frontend && npm run build --prefix frontend"
+  },
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
